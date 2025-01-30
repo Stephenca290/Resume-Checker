@@ -51,7 +51,7 @@ def match_keywords_with_tfidf(resume_text, keywords):
 
 # Streamlit app
 def main():
-    st.title("Resume Analysis with TF-IDF")
+    st.title("Resume Analysis ")
 
     st.sidebar.header("Upload Your Resume")
     uploaded_file = st.sidebar.file_uploader("Upload a PDF file", type="pdf")
